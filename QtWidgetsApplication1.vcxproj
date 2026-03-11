@@ -63,6 +63,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -92,56 +102,62 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AdminWindow.cpp" />
-    <ClCompile Include="RepoChooserWindow.cpp" />
-    <ClCompile Include="repository.cpp" />
-    <ClCompile Include="service.cpp" />
-    <ClCompile Include="sort.cpp" />
-    <ClCompile Include="StartUpWindow.cpp" />
-    <ClCompile Include="tests.cpp" />
-    <ClCompile Include="TrenchCoat.cpp" />
-    <ClCompile Include="ui.cpp" />
-    <ClCompile Include="UserWindow.cpp" />
-    <ClCompile Include="user_service.cpp" />
-    <ClCompile Include="Utils.cpp" />
-    <ClCompile Include="validator.cpp" />
-    <ClCompile Include="validator_exceptions.cpp" />
+    <ClCompile Include="src\AdminWindow.cpp" />
+    <ClCompile Include="src\RepoChooserWindow.cpp" />
+    <ClCompile Include="src\repository.cpp" />
+    <ClCompile Include="src\service.cpp" />
+    <ClCompile Include="src\sort.cpp" />
+    <ClCompile Include="src\StartUpWindow.cpp" />
+    <ClCompile Include="src\tests.cpp" />
+    <ClCompile Include="src\TrenchCoat.cpp" />
+    <ClCompile Include="src\ui.cpp" />
+    <ClCompile Include="src\UserWindow.cpp" />
+    <ClCompile Include="src\user_service.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+    <ClCompile Include="src\validator.cpp" />
+    <ClCompile Include="src\validator_exceptions.cpp" />
     <QtRcc Include="QtWidgetsApplication1.qrc" />
     <QtUic Include="QtWidgetsApplication1.ui" />
-    <QtMoc Include="QtWidgetsApplication1.h" />
-    <ClCompile Include="file_repository.cpp" />
-    <ClCompile Include="MainWindow.cpp" />
-    <ClCompile Include="QtWidgetsApplication1.cpp" />
-    <ClCompile Include="main.cpp" />
+    <QtMoc Include="include\QtWidgetsApplication1.h" />
+    <ClCompile Include="src\file_repository.cpp" />
+    <ClCompile Include="src\MainWindow.cpp" />
+    <ClCompile Include="src\QtWidgetsApplication1.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="MainWindow.h" />
+    <QtMoc Include="include\MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="StartUpWindow.h" />
-    <QtMoc Include="AdminWindow.h" />
-    <ClInclude Include="cart_saver.h" />
-    <ClInclude Include="cart_saverCSV.h" />
-    <ClInclude Include="cart_saverHTML.h" />
-    <ClInclude Include="comparator.h" />
-    <ClInclude Include="file_repository.h" />
-    <QtMoc Include="RepoChooserWindow.h" />
-    <ClInclude Include="repository.h" />
-    <ClInclude Include="repository_exceptions.h" />
-    <ClInclude Include="service.h" />
-    <ClInclude Include="sort.h" />
-    <ClInclude Include="tests.h" />
-    <ClInclude Include="TrenchCoat.h" />
-    <ClInclude Include="ui.h" />
-    <QtMoc Include="UserWindow.h" />
-    <ClInclude Include="user_service.h" />
-    <ClInclude Include="Utils.h" />
-    <ClInclude Include="validator.h" />
-    <ClInclude Include="validator_exceptions.h" />
+    <QtMoc Include="include\StartUpWindow.h" />
+    <QtMoc Include="include\AdminWindow.h" />
+    <ClInclude Include="include\cart_saver.h" />
+    <ClInclude Include="include\cart_saverCSV.h" />
+    <ClInclude Include="include\cart_saverHTML.h" />
+    <ClInclude Include="include\comparator.h" />
+    <ClInclude Include="include\file_repository.h" />
+    <QtMoc Include="include\RepoChooserWindow.h" />
+    <ClInclude Include="include\repository.h" />
+    <ClInclude Include="include\repository_exceptions.h" />
+    <ClInclude Include="include\service.h" />
+    <ClInclude Include="include\sort.h" />
+    <ClInclude Include="include\tests.h" />
+    <ClInclude Include="include\TrenchCoat.h" />
+    <ClInclude Include="include\ui.h" />
+    <QtMoc Include="include\UserWindow.h" />
+    <ClInclude Include="include\user_service.h" />
+    <ClInclude Include="include\Utils.h" />
+    <ClInclude Include="include\validator.h" />
+    <ClInclude Include="include\validator_exceptions.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\A6-7\cart.csv" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="cart.html" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TrenchCoats.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

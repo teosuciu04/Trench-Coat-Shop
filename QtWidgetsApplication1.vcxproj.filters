@@ -29,135 +29,141 @@
     <QtUic Include="QtWidgetsApplication1.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="QtWidgetsApplication1.h">
+    <QtMoc Include="include\QtWidgetsApplication1.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="QtWidgetsApplication1.cpp">
+    <ClCompile Include="src\QtWidgetsApplication1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainWindow.cpp">
+    <ClCompile Include="src\MainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="file_repository.cpp">
+    <ClCompile Include="src\file_repository.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="repository.cpp">
+    <ClCompile Include="src\repository.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="service.cpp">
+    <ClCompile Include="src\service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sort.cpp">
+    <ClCompile Include="src\sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tests.cpp">
+    <ClCompile Include="src\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TrenchCoat.cpp">
+    <ClCompile Include="src\TrenchCoat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ui.cpp">
+    <ClCompile Include="src\ui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="user_service.cpp">
+    <ClCompile Include="src\user_service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utils.cpp">
+    <ClCompile Include="src\Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="validator.cpp">
+    <ClCompile Include="src\validator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="validator_exceptions.cpp">
+    <ClCompile Include="src\validator_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AdminWindow.cpp">
+    <ClCompile Include="src\AdminWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StartUpWindow.cpp">
+    <ClCompile Include="src\StartUpWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RepoChooserWindow.cpp">
+    <ClCompile Include="src\RepoChooserWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UserWindow.cpp">
+    <ClCompile Include="src\UserWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="MainWindow.h">
+    <QtMoc Include="include\MainWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="AdminWindow.h">
+    <QtMoc Include="include\AdminWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="StartUpWindow.h">
+    <QtMoc Include="include\StartUpWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="RepoChooserWindow.h">
+    <QtMoc Include="include\RepoChooserWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="UserWindow.h">
+    <QtMoc Include="include\UserWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cart_saver.h">
+    <ClInclude Include="include\cart_saver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cart_saverCSV.h">
+    <ClInclude Include="include\cart_saverCSV.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cart_saverHTML.h">
+    <ClInclude Include="include\cart_saverHTML.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="comparator.h">
+    <ClInclude Include="include\comparator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="file_repository.h">
+    <ClInclude Include="include\file_repository.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="repository.h">
+    <ClInclude Include="include\repository.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="repository_exceptions.h">
+    <ClInclude Include="include\repository_exceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="service.h">
+    <ClInclude Include="include\service.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sort.h">
+    <ClInclude Include="include\sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tests.h">
+    <ClInclude Include="include\tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TrenchCoat.h">
+    <ClInclude Include="include\TrenchCoat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ui.h">
+    <ClInclude Include="include\ui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="user_service.h">
+    <ClInclude Include="include\user_service.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utils.h">
+    <ClInclude Include="include\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="validator.h">
+    <ClInclude Include="include\validator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="validator_exceptions.h">
+    <ClInclude Include="include\validator_exceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\A6-7\cart.csv" />
     <None Include="cart.html" />
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TrenchCoats.txt" />
   </ItemGroup>
 </Project>
