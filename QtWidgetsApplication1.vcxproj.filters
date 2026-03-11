@@ -158,12 +158,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\A6-7\cart.csv" />
-    <None Include="cart.html" />
+    <None Include="data\cart.html" />
     <None Include=".gitignore" />
     <None Include=".gitattributes" />
     <None Include="README.md" />
+    <None Include="data\cart.csv" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="TrenchCoats.txt" />
+    <Text Include="data\TrenchCoats.txt" />
   </ItemGroup>
 </Project>

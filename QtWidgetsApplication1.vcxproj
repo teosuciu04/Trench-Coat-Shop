@@ -153,11 +153,12 @@
     <None Include="..\A6-7\cart.csv" />
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
-    <None Include="cart.html" />
+    <None Include="data\cart.csv" />
+    <None Include="data\cart.html" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="TrenchCoats.txt" />
+    <Text Include="data\TrenchCoats.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
