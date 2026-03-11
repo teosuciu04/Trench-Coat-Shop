@@ -1,0 +1,4 @@
+L,Black,120,1,https://assets.burberry.com/is/image/Burberryltd/12430548-E268-48DC-8CCE-922F96647867?$BBY_V3_SL_1.4$&wid=740&hei=1036
+S,Red,90,3,https://assets.burberry.com/is/image/Burberryltd/644CF400-CC14-49EC-B78D-1D10F9936278?$BBY_V3_ML_1.4$&wid=740&hei=1036
+XL,Green,150,5,https://assets.burberry.com/is/image/Burberryltd/8BD8966C-3C5D-4A88-9878-2EA047B5CED9?$BBY_V3_ML_1.4$&wid=740&hei=1036
+M,Beige,110,4,https://assets.burberry.com/is/image/Burberryltd/8920AA1E-CAEB-4AC3-A57D-12AC1BC7EED2?$BBY_V3_ML_1.4$&wid=740&hei=1036
